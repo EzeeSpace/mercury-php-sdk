@@ -4,7 +4,6 @@ namespace EzeeSpace\Mercury;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use EzeeSpace\Mercury\Commands\MercuryCommand;
 
 class MercuryServiceProvider extends PackageServiceProvider
 {

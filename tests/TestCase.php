@@ -2,9 +2,9 @@
 
 namespace EzeeSpace\Mercury\Tests;
 
+use EzeeSpace\Mercury\MercuryServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use EzeeSpace\Mercury\MercuryServiceProvider;
 
 class TestCase extends Orchestra
 {
