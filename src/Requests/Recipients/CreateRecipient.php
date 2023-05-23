@@ -10,6 +10,7 @@ use Saloon\Traits\Body\HasJsonBody;
 class CreateRecipient extends Request implements HasBody
 {
     use HasJsonBody;
+
     protected Method $method = Method::POST;
 
     public function resolveEndpoint(): string
